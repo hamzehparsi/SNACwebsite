@@ -146,3 +146,7 @@ button.sl-next {
   height: 30px!important;
   background-repeat: no-repeat!important;
 }
+.player-des {
+  background: rgb(247,250,252);
+background: linear-gradient(0deg, rgba(247,250,252,1) 0%, rgba(247,250,252,1) 57%, rgba(247,250,252,0.9304315476190477) 78%, rgba(247,250,252,0) 100%);
+}
