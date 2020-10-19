@@ -28,9 +28,19 @@
                     </div>
                 </div>
             </div>
-            <div class="w-auto">
-                <ul class="flex items-center">
-                    <li class="px-1 mx-2"><a class="text-sm text-gray-500 hover:text-white hover:bg-basegreen rounded-full px-4 py-1 transition-all duration-500" href="#">Home</a></li>
+            <div id="menu-items" class="w-auto">
+                <ul class="flex items-center menu-items">
+                    <li class="px-1 mx-2 relative flex justify-center">
+                        <a class="text-sm text-gray-500 hover:text-white hover:bg-basegreen rounded-full px-4 py-1 transition-all duration-500" href="#">Home</a>
+                            <ul class="w-64 rounded-lg bg-white absolute z-50 divide-y-1 divide-gray-300 mt-10 shadow-sm">
+                                <li class="px-1 mx-2 py-2">
+                                    <a href="#" class="text-xs divide-gray-400">ali</a>
+                                </li>
+                                <li class="px-1 mx-2 py-2">
+                                    <a href="#" class="text-xs divide-gray-400">ali</a>
+                                </li>
+                            </ul>
+                    </li>
                     <li class="px-1 mx-2"><a class="text-sm text-white bg-basegreen hover:text-white hover:bg-basegreen rounded-full px-4 py-1 transition-all duration-500" href="#">Service</a></li>
                     <li class="px-1 mx-2"><a class="text-sm text-gray-500 hover:text-white hover:bg-basegreen rounded-full px-4 py-1 transition-all duration-500" href="#">Gallery</a></li>
                 </ul>
