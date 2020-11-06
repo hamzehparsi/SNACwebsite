@@ -151,12 +151,9 @@ button.sl-next {
   background: linear-gradient(0deg, rgba(247,250,252,1) 0%, rgba(247,250,252,1) 57%, rgba(247,250,252,0.9304315476190477) 78%, rgba(247,250,252,0) 100%);
 }
 
-#menu-items ul li ul {
-  /* margin-top: 20px; */
-  opacity: 0;
-  transition: 300ms ease-in-out all;
+.s-child {
+  display: none;
 }
-#menu-items ul li:hover ul{
-  opacity: 100;
-  /* margin-top: 2px; */
+.f-child:hover .s-child {
+  display: block;
 }

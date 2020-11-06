@@ -8,3 +8,10 @@ mybox.addEventListener("click", function () {
     next.innerHTML = ""
     
 })
+let li = document.querySelectorAll('ul.menu-items li')
+
+li.forEach(element => {
+    element.addEventListener('click', function() {
+        console.log('jdj');
+    })
+});
